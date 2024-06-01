@@ -1,0 +1,69 @@
+.depos {
+    background:  linear-gradient(to bottom,   rgb(204, 202, 202), rgb(249, 249, 250)); /* Gradient from dark blue to light blue */
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 20%;
+}
+.text1{
+    padding-top: 3%;
+    padding-left: 5%;
+    color:#0c6cfc;
+}
+.file-upload-form {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 35%;
+  }
+  .file-upload-label input {
+    display: none;
+  }
+  .file-upload-label svg {
+    height: 50px;
+    fill: rgb(82, 82, 82);
+    margin-bottom: 20px;
+  }
+  .file-upload-label {
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 30px 70px;
+    border-radius: 40px;
+    border: 2px dashed #0c6cfc;
+    box-shadow: 0px 0px 200px -50px rgba(0, 0, 0, 0.719);
+  }
+  .file-upload-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .browse-button {
+    background-color: rgb(82, 82, 82);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.3s;
+  }
+  .browse-button:hover {
+    background-color:#0c6cfc;
+  }
+  .text2{
+    margin-left: 8%;
+    margin-top: 2%;
+    color:#525285
+}
+.text3{
+    margin-left: 8%;
+    color: #656572;
+}
+.textt{
+    color: red;
+    font-weight: 700;
+}
+.form-label{
+  
+  font-weight: 500;
+  color: rgb(15, 15, 15);
+}

@@ -1,0 +1,109 @@
+.depos {
+    background : linear-gradient(to bottom,   rgb(204, 202, 202), rgb(249, 249, 250)); /* Gradient from dark blue to light blue */
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.text1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:23px;
+    font-weight: 500;
+   
+    margin-left: 5%;
+    padding-top: 20px;    color: #0c6cfc;
+
+}
+.text2{
+    margin-left: 8%;
+    margin-top: 2%;
+    color:#525285
+}
+.text3{
+    margin-left: 8%;
+    color: #656572;
+}
+.textt{
+    color: red;
+    font-weight: 700;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+body{
+    margin:0;
+}
+ form{
+    margin-left: 5%;
+    margin-top: 20px;
+ }
+ .form-label{
+  
+    font-weight: 500;
+    color: #656572;
+ }
+ .for{
+    background-color: rgb(230, 232, 238);
+    margin-left: 5%;
+    border-radius: 2%;
+    margin-top: 4%;
+    margin-right: 2%;
+ 
+ }
+ .texts{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #0c6cfc;
+    margin-left: 35%;
+    font-size: 120%;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+ }
+ .for1{
+    margin-left: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:#888892 ;
+     font-size: 16px;
+     font-weight: 500;
+     padding-top: 1%;
+ }
+ .input-group{
+   
+ 
+    width: 100%;
+    border-color: rgb(228, 227, 227);
+  
+
+ }
+ .form-label{
+    margin-left: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:#888892 ;
+     font-size: 16px;
+     font-weight: 500;
+ }
+ .form-select{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 97%;
+     
+
+ }
+  .form-control{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 97%;
+
+  }
+  .input-group1{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 99%;
+  }
+ .botonat{
+    margin-top: 5%;
+ }
+ 

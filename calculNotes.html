@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="pageAdmin.css">
+    <script src="https://kit.fontawesome.com/6059183beb.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0 sidebar" id="t1">
+                <div id="t2">
+                  <cite>E-service Admin</cite>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="t3">
+                    <img src="1.jpeg" height="100" width="100" id="r2">
+                    <br>
+                    <small>Admin's name</small>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <table class="table table-lg" style="width: 10%;">
+                    <tbody>
+                        <tr>
+                            <th style="padding-left: 10%;">
+                                <i class="fa-solid fa-house" style="color:  #FFE4C4;"></i>
+                                <a href="pageAdmin.html" style="text-decoration: none;color: #FFE4C4;font-weight: normal;padding-left: 10%;">Home</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th >
+                                <div id="r3">
+                                  <i class="fa-solid fa-address-card" style="color:  #FFE4C4;position: absolute;"></i>
+                                  <select class="form-select m-0" id="inscriptionSelect">
+                                     <option disabled selected >Inscription</option>
+                                     <option style="color: black;"><a href="lancerReinscription.html">Lancer la réinscription</a></option>
+                                     <option style="color: black;"><a href="AjoutEtudiant.html">Ajout des etudiants</a></option>
+                                  </select>
+                               </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 10%;">
+                                <i class="fa-solid fa-bullhorn" style="color:  #FFE4C4;"></i>
+                                <a href="gestionAnnonces.html" style="text-decoration: none;color: #FFE4C4;font-weight: normal;padding-left: 7%;">Gestion des annonces</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th >
+                               <div id="r4">
+                                <i class="fa-solid fa-clipboard" style="color:  #FFE4C4;position: absolute;"></i>
+                                <select class="form-select m-0 " id="noteSelect" style="padding-left: 20%;">
+                                    <option disabled selected>Gestion des notes</option>
+                                    <option style="color: black;"><a href="calculNotes.html">Calcul des notes</a></option>
+                                    <option style="color: black;"><a href="">Envoi des notes</a></option>
+                                </select>
+                               </div>
+                            </th>                            
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 10%;">
+                                <i class="fa-solid fa-angles-up" style="color: #FFE4C4;"></i>
+                                <a href="classe.html" style="text-decoration: none;color: #FFE4C4;font-weight:normal;font-size: 15px; padding-left: 10%;">Les niveaux</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th style="padding-left: 10%;">
+                                <i class="fa-solid fa-file-pen" style="color:  #FFE4C4;padding-left: 1px;"></i>
+                                <a href="gestionDemande.html" style="text-decoration: none;color: #FFE4C4;font-size: 95%; font-weight: normal; padding-left: 5%;">Gestion des demandes</a>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br><br>
+                <br><br>
+                <br><br>
+                <div style="padding-bottom: 0;display: flex;justify-content: space-between;align-items: center;">
+                    <div class="dropup">
+                        <i class="fa-solid fa-gear" style="color:  #FFE4C4;" id="menuButton"></i>
+                        <div id="menuContent" class="menu-content">
+                           <a href="#">Se déconnecter</a>
+                           <a href="Info.html">Mon profil</a>
+                        </div>
+                    </div>
+                    <img src="abdelmalek_saadi-removebg-preview.png" height="70px" width="70px">
+                </div>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12" id="d1">
+                <nav class="navbar navbar-expand-lg" id="s1">
+                    <div style="display: flex;align-items: center;">
+                        <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <div class="input-group pl-5">
+                                    <input type="text" class="form-control" placeholder="search">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button" style="width: 100%;"><i class="fas fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item d-none d-md-block">
+                            <a class="navbar-brand pr-5 pl-2">Bonjour admin's name</a>
+                        </li>
+                   </ul>
+                   <ul class="navbar-nav ml-auto">
+                        <li class="nav-item d-none d-md-block">
+                           <i class="fas fa-bell fa-fw"></i>
+                            </li>
+                   </ul>
+                   <ul class="navbar-nav ml-auto">
+                      <li class="nav-item d-none d-md-block">
+                         <i class="fas fa-envelope"></i>
+                      </li>
+                   </ul>
+                   <ul class="navbar-nav ml-auto">
+                      <li class="nav-item d-none d-md-block">
+                        <img src="Capture_d_écran_2024-03-28_224640-removebg-preview.png" width="40px" height="40px">
+                    </li>
+                   </ul>
+                </nav>
+                <br>
+                <br>
+                <div class="card" style="background-color: rgba(19, 19, 97, 0.4); margin: 5%; padding-left: 10%; border-radius: 10px;">
+                    <div class="card-header" style="color: #FFE4C4; display: flex; align-items: center;"><i class="fa-solid fa-share" style="padding-right: 50px;"></i><h2>Envoi des notes :</h2></div>
+                    <div class="card-body">
+                        <form action="../src/calcul.php" method="POST" style="color: #FFE4C4;">
+                            <div class="form-group">
+                                <label for="Niveau">Niveau :</label>
+                                <select id="niveau" name="niveau" class="form-control">
+                                    <option disabled selected >Sélectionner un niveau</option>
+                                    <optgroup label="CPs">
+                                        <option value="CP1">cp1</option>
+                                        <option value="CP2">cp2</option>
+                                    </optgroup>
+                                    <optgroup label="Département maths info">
+                                        <option value="GI1">GI1</option>
+                                        <option value="GI2">GI2</option>
+                                        <option value="GI3-GL">GI3-GL</option>
+                                        <option value="GI3-BI">GI3-BI</option>
+                                        <option value="GI3-MI">GI3-MI</option>
+                                        <option value="ID1">ID1</option>
+                                        <option value="ID2">ID2</option>
+                                        <option value="ID3">ID3</option>
+                                        <option value="TDIA1">TDIA1</option>
+                                        <option value="TDIA2">TDIA2</option>
+                                        <option value="TDIA3">TDIA3</option>
+                                    </optgroup>
+                                    <optgroup label="Département physique maths">
+                                        <option value="GC1">GC1</option>
+                                        <option value="GC2">GC2</option>
+                                        <option value="GC3-HYD">GC3-HYD</option>
+                                        <option value="GC3-BPC">GC3-BPC</option>
+                                        <option value="GEER1">GEER1</option>
+                                        <option value="GEER2">GEER2</option>
+                                        <option value="GEER3">GEER3</option>
+                                        <option value="GEE1">GEE1</option>
+                                        <option value="GEE2">GEE2</option>
+                                        <option value="GEE3">GEE3</option>
+                                        <option value="GM1">GM1</option>
+                                        <option value="GM2">GM2</option>
+                                        <option value="GM3">GM3</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="form-group" id="moduleGroup" style="display: none;">
+                                <label for="module">Module :</label>
+                                <select name="module" id="module" class="form-control">
+                                    <!-- Vos options ici -->
+                                </select>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button type="submit" class="btn" style="border-radius: 7px;background-color: #FFE4C4;">Publier</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("inscriptionSelect").addEventListener("change", function() {
+            var selectedOption = this.value;
+            if (selectedOption === "Lancer la réinscription") {
+                window.location.href = "lancerReinscription.html";
+            }
+            if (selectedOption === "Ajout des etudiants") {
+                window.location.href = "AjoutEtudiant.html";
+            }
+        });
+        document.getElementById("noteSelect").addEventListener("change", function() {
+            var selectedOption = this.value;
+            if (selectedOption === "Calcul des notes") {
+                window.location.href = "calculNotes.html";
+            }
+            if (selectedOption === "Envoi des notes") {
+                window.location.href = "envoieNotes.html";
+            }
+           
+        });
+        document.getElementById("sidebarToggleTop").addEventListener("click", function() {
+       var sidebar = document.getElementById("t1");
+       sidebar.classList.toggle("show");
+    });
+    document.getElementById("menuButton").addEventListener("click", function() {
+          var menu = document.getElementById("menuContent");
+          if (menu.classList.contains("show")) {menu.classList.remove("show");}
+          else {menu.classList.add("show"); }
+        });
+        document.getElementById('niveau').addEventListener('change', function() {
+        var niveau = this.value;
+        var moduleSelect = document.getElementById('module');
+        moduleSelect.innerHTML = ''; // Nettoyer les anciennes options
+
+        // Ajouter les options de module en fonction du niveau sélectionné
+        if (niveau === 'CP1') {
+            addModules(moduleSelect, ["Algèbre 1 :Algèbre de base","Analyse 1: Analyse réelle","Physique 1:Electrostatique et magnétostatique","Mécanique 1:Mécanique du point","Informatique 1:Initiation à l’informatique","Langues et communications 1:TEC Français & TEC Anglais","Algèbre 2:Algèbre linéaire","Analyse 2:Equations différentielles et séries","Physique 2:Optique","Chimie 1:Atomistique & Liaisons chimiques","Géologie:Géologie générale","Langues et communications 2:TEC Français & TEC Anglais"]);
+        }else if (niveau === 'CP2') {
+            addModules(moduleSelect, ["Analyse 3 : Fonctions de plusieurs variables","Physique 3 : Electrocinétique et Electromagnétisme","Mécanique 2 : Mécanique du solide","Informatique 2 : Programmation C","Langues et communications 3 : TEC Français & TEC Anglais","Mathématiques appliquées : Probabilités et statistiques descriptives & Analyse numérique","Analyse 4 : Intégrales et formes différentielles","Physique 4 : Thermodynamique et Statique des fluides","Electronique : Electronique analogique","Informatique 3 : Outils informatique","Chimie 2 : Thermochimie & Cristallochimie"]);
+        }else if (niveau === 'GI1') {
+            addModules(moduleSelect, ["Langage C avancé et structures de données","Architecture des ordinateurs","Recherche opérationnelle et théorie des graphes","Systèmes d’Information et Bases de Données Relationnelles","Réseaux informatiques","Langues et Communication Professionnelles 1","Architecture Logicielle et UML","Web1 : Technologies de Web et PHP5","Programmation Orientée Objet C++","Théorie des langages et compilation","Algorithmique Avancée et complexité","Entreprenariat 1 & Atelier Start up"]);
+        }else if (niveau === 'GI2') {
+            addModules(moduleSelect, ["Python pour les sciences de données","Programmation Java Avancée","Langues et Communication Professionnelle 2 & Soft Skils","Linux et programmation système","Administration des Bases de données Avancées","Administration réseaux et systèmes","Entreprenariat 2","Machine Learning","Gestion de projet et Génie logiciel","Crypto-systèmes et sécurité Informatique","Frameworks Java EE avancés et .Net","Web 2 : Applications Web modernes"]);
+        }else if (niveau === 'GI3-GL') {
+            addModules(moduleSelect, ["Développement des applications mobiles","Virtualisation et Cloud Computing","Enterprise Resource Planning ERP","Ingénierie logicielle, Qualité, Test et Intégration","Entreprenariat 3","Système embarqué et temps réel"]);
+        }else if (niveau === 'GI3-BI') {
+            addModules(moduleSelect, ["Entreprenariat 3","Analyse et conception des systèmes décisionnels","Enterprise Resource Planning ERP","Ingénierie de l’information et des connaissances","Business Intelligence et Veille Stratégique","Data Mining"]);
+        }else if (niveau === 'GI3-MI') {
+            addModules(moduleSelect, ["Entreprenariat 3","Deep learning","Vision par ordinateur sous OpenCV","Traitement du signal","Informatique Graphique","Data Mining"]);
+        }else if (niveau === 'ID1') {
+            addModules(moduleSelect, ["Analyse numérique matricielle et Statistique Inférentielle","Théorie des langages et compilation","Systèmes d’Information et Bases de Données","Architecture des ordinateurs et systèmes d’exploitation (Computer Architectures and Organisation)","Communication Professionnelle et Soft Skills -I","Recherche d’Information (RI)","Programmation Orientée Objet Java","Data Mining","Statistique en grande dimension","Entreprenariat -I-","Modélisation Stochastique","Administration et Optimisation des Bases de Données"]);
+        }else if (niveau === 'ID2') {
+            addModules(moduleSelect, ["Intelligence Artificielle I – Machine Learning","Programmation Python / Programmation fonctionnelle","Architecture Logicielle et UML","Fondements du Big Data","Communication Professionnelle et Soft Skills -II-","Bases de données avancées","Big Data Avancées","Intelligence Artificielle II/Deep Learning","Data Warehouse et Data Lake","Programmation et architecture Parallèle","Traitement Automatique de Langue (TAL) naturelle et ses applications","Entreprenariat -II-"]);
+        }else if (niveau === 'ID3') {
+            addModules(moduleSelect, ["Big Data Visualisation","Business Intelligence et Veille Stratégique","Entreprenariat -III-","Social Network Mining","Web Marketing et CRM","Transformation digitale"]);
+        }else if (niveau === 'TDIA1') {
+            addModules(moduleSelect, ["Théorie des langages et compilation","Systèmes d’Information et Bases de Données","Architecture des ordinateurs et systèmes d’exploitation","Structure de données et Algorithmique avancée","Communication Professionnelle et Soft Skills 1","Architecture d'entreprise et transformation digitale","Programmation Orientée Objet Java","Programmation Python / Programmation fonctionnelle","Développement Web","Gestion de projets informatiques","Industrie de numérique","Business, Marketing, and Management Principles for IT"]);
+        }else if (niveau === 'TDIA2') {
+            addModules(moduleSelect, ["Cloud computing","Cartographie des systèmes d'information","Bases de Intelligence Artificielle","Architecture Logicielle et UML","Communication Professionnelle et Soft Skills 2","Gestion de projets digitaux","Applications de l’Intelligence Artificielle","Ingestion et stockage des données","Big data","Droit et sécurité des données","Cyber Security","Entreprenariat"]);
+        }else if (niveau === 'TDIA3') {
+            addModules(moduleSelect, ["La Veille Stratégique, Scientifique et Technologique","Gouvernance et Urbanisation des SI","DevOps","INNOVATION ENGINEERING & Digitalisation","WEB MARKETING ET CRM","Business English"]);
+        }else if (niveau === 'GC1') {
+            addModules(moduleSelect, ["Mathématiques de l'ingénieur","Programmation événementielle et Initiations aux bases de données","Mécanique des Fluides et des Solides","Langues et Communication 1","Matériaux de construction","Dessin, architecture","Urbanisme, Topographie","Résistance des Matériaux 1","Probabilité Statistiques et Recherche Opérationnelle","Langues et Communication 2","Comptabilité général et analytique","Equation de la physique mathématiques","Logistique et transport : routes 1","Géotechnique 1","Béton Armé 1","Résistance des Matériaux 2"]);
+        }else if (niveau === 'GC2') {
+            addModules(moduleSelect, ["Stratégie de gestion et gestion de l’entreprise","Langues et Communication 3","Résistance des Matériaux 3","Géotechnique 2 et Hydraulique Souterraine","Béton Armé 2","Hydrologie","Voirie, réseaux divers et éclairagisme","Hydraulique et Machines Hydrauliques","Marchés publics et droit social","Gestion et Analyse de Projets","Modélisations Numériques","Construction Métallique 1","Pratiques des Constructions et Installations Electriques","Hydraulique Urbaine","Béton précontraint","Route 2"]);
+        }else if (niveau === 'GC3-HYD') {
+            addModules(moduleSelect, ["Gestion Durable des Ressources en Eau","Ressources en Eau et Hydrologie","Constructions Hydrauliques 1","Constructions Hydrauliques 2","Dynamique Fluviale","Constructions Maritimes","Hydraulique 2","Hydraulique Informatique"]);
+        }else if (niveau === 'GC3-BPC') {
+            addModules(moduleSelect, ["Conception et analyse des structures","Construction Métallique 2","Barrages","Ponts","Dynamique des Structures et Génie sismique","Géotechnique 3","Physique du Bâtiment et structures spéciales","Management de l’environnement"]);
+        }else if (niveau === 'GEER1') {
+            addModules(moduleSelect, ["Technique de communication 1","Comptabilité et contrôle de gestion","Mathématiques pour l’ingénieur 1","Mathématiques pour l’ingénieur 2","Réseaux électriques","Mécanique des fluides","Dessin industriel et Schémas","Hydroggène vert et sécurité industrielle","Technique de communication 2","Management d’entreprise","Modélisation numérique 1","Thermodynamique industrielle","RDM et Matériaux pour l’ingénieur","Transferts thermiques par conduction et rayonnement","Régulation industrielle","Hydraulique"]);
+        }else if (niveau === 'GEER2') {
+            addModules(moduleSelect, ["Entrepreneuriat et Management de projet","Modélisation numérique 2","Métrologie et diagnostic énergétique","Electrotechnique et machines électriques","Vibrations mécaniques et acoustiques","Transferts de chaleur par convection","Ecoulement et transfert en changement de phase","Production et stockage de l'énergie","Combustion et Pollution atmosphérique","Echangeurs et machines thermiques","Transfert de matière","Turbomachines et machines volumétriques","Froid Industriel et domestique","Systèmes solaires thermiques","Systèmes solaires photovoltaïques","Energie éolienne"]);
+        }else if (niveau === 'GEER3') {
+            addModules(moduleSelect, ["Ressources humaines et marchés publics","Electronique de puissance","Chauffage, climatisation et conditionnement d’air","Management de l'énergie","Énergie hydroélectrique et nucléare","Energie géothermique et bioénergie","Efficacité énergétique","Audit énergétique"]);
+        }else if (niveau === 'GEE1') {
+            addModules(moduleSelect, ["Programmation et outils informatiques","Biologie pour l’ingénieur","Chimie organique, cinétique et catalyse","Microbiologie/Biochimie","Mécanique des fluides et hydraulique","Communication I/Anglais I","Mathématiques et informatiques Appliqués aux Sciences de l’ingénieur","Chimie appliquée à l’environnement","Méthodes d’analyses chimiques et biologiques","Hydrologie /Hydrogéologie","Changements climatiques et développement durable","Communication personnelle II/Anglais II"]);
+        }else if (niveau === 'GEE2') {
+            addModules(moduleSelect, ["Energies renouvelables et efficacité énergétique","Génie des procédés pour l’environnement","Géophysique appliquée à l‘environnement","Management qualité, hygiène, sécurité et environnement","Communication et langues étrangères","Management et outils de pilotage économique","Gestion des risques industriels et naturels","Etude d’impact sur l’environnement/Analyse des cycles de vie (ACV)","Analyses des données et tests statistiques","Aspects environnementaux/ Gestion et restauration des écosystèmes","Formation humaine et managerielle","Marchés publiques et droit social"]);
+        }else if (niveau === 'GEE3') {
+            addModules(moduleSelect, ["Production et alimentation en eau potable/ Gestion des ressources hydriques","Gestion et traitement des déchets solides urbains et industriels","Pollution atmosphérique et techniques de traitement de l’air","Gestion et traitement des eaux usées urbains et industriels","Réseau d’assainissement","Décontamination et restauration des sols"]);
+        }else if (niveau === 'GM1') {
+            addModules(moduleSelect, ["Mathématiques pour l'ingénieur","Mécanique des milieux continus / Elasticité linéaire","Mécanique des Fluides","RDM","Vibrations / Ondes","Électronique / Électrotechnique","TEC / Anglais I","Stratégie de gestion / Organisation des entreprises","Dessin industriel / Initiation technique","Automatique / Machines électrique","Analyse numérique / Programmation avancée","Recherche Opérationnelle","Sciences et génie des matériaux","Thermodynamique Appliquée / Technologie fonctionnelle de l’Automobile (TFA)","Marchés public & Droit social","Management des risques / Gestion de stock"]);
+        }else if (niveau === 'GM2') {
+            addModules(moduleSelect, ["Modélisation numérique & Simulation","Métrologie / CND","Fabrication mécanique","Transmission de puissance / Eléments de machines","DAO","Mécanique de la rupture / Endommagement","TEC / Anglais II","Gestion commerciale / Management de projet technique","Transferts thermiques / Machines énergétiques","Tribologie et lubrification","Construction mécanique","Choix de matériaux pour la conception mécanique","RDM avancée","CMAO","Innovation et créativité / Analyse fonctionnelle","Entreprenariat & Leadership"]);
+        }else if (niveau === 'GM3') {
+            addModules(moduleSelect, ["Maintenance, fiabilité & Sûreté de fonctionnement","Contrôle des vibrations et du bruit","Logistique / Maitrise statistique des processus","Mécanique des structures","Robotique & Intelligence artificielle","Gestion de production et de la qualité","Management hygiène, sécurité, qualité et environnement","Psychologie du travail & Anglais technique"]);
+        }
+
+        // Afficher le champ des modules seulement si le niveau est sélectionné
+        var moduleGroup = document.getElementById('moduleGroup');
+        moduleGroup.style.display = niveau ? 'block' : 'none';
+    });
+
+    function addModules(select, modules) {
+        var moduleSelect = document.getElementById('module');
+        modules.forEach(function(module) {
+            var option = document.createElement('option');
+            option.value = module;
+            option.textContent = module;
+            moduleSelect.appendChild(option); 
+        });
+    }
+    
+    </script>
+    
+  </body>
+</html>

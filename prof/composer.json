@@ -1,0 +1,13 @@
+{
+    "name": "jiji/projet",
+    "description": "projet_web",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jiji\\Projet\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}

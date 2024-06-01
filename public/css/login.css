@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(ensah\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+.element{
+    background-color:whitesmoke;
+    filter:  none;
+    width: 500px;
+    opacity: 70%;
+    border-radius: 4%;
+     display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    margin-left:0%;
+
+     
+   
+     
+ } .element form {
+        margin-top: 20px;  
+    }
+    
+.ha{
+   margin-left:2%;
+   margin-right: 2%;
+   margin-top: 5%;
+   margin-bottom: 25%;
+   justify-content: center;
+    
+   
+ }
+
+ .input1{
+    width : 400px;
+    height : 45px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 0%;
+    border-color :rgb(190, 207, 223);
+    border-width: 0.5px;
+    margin-left: 10%;
+    
+ }
+ .input2{
+    width : 400px;
+    height : 45px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 3%;
+    border-color: rgb(190, 207, 223);
+    border-width: 0.5px;
+    margin-left: 10%;
+    
+ }
+ .input3{
+ width : 200px;
+    height : 45px;
+    border-radius: 10px;
+    background-color:#0F52BA;
+    margin-top: 3%;
+    border-color: #0F52BA;
+    border-width: 0.5px;
+    margin-left: 30%;
+    color: aliceblue;
+
+    
+ }
+  
+ .textt{
+    font-family:Verdana  ;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+     color:#0F52BA;
+     font-size: larger;
+      
+ }
+.form-check{
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #575a5f;
+ 
+}
+ 
+.form-check-label{
+    font-family: Verdana ;
+    font-weight: 100;
+    font-size: small;
+    font-weight: lighter;
+    
+}
+hr {
+    width: 180px;
+    height: 2px;  
+    background-color: rgba(4, 1, 17, 0.1);  
+    border: none; 
+    margin-top: 0%;
+}
+.text-center{
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.text-center1{
+    font-family: verdana;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.text-center2{
+    margin-top: 10%;
+     color:#767c85;
+     font-family: verdana;
+     font-size: medium;
+}
+.text-center a {
+    color: #2166a7;  
+    text-decoration: none;  
+
+     
+}
+.text1{
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    margin-left: 2%;
+     
+    
+ 
+    
+} 
+.logo{
+    width: 65px;
+    height:65px;
+   
+ 
+     
+}
+.all{
+    margin-top: 30%;
+    display: flex;
+    margin-left: 0%;
+   
+     
+     
+}

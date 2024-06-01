@@ -1,0 +1,67 @@
+.depos {
+    background: linear-gradient(to bottom,  rgb(204, 202, 202), rgb(249, 249, 250)); /* Gradient from dark blue to light blue */
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 20%;
+}
+ 
+ .text1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color:#0c6cfc;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+   
+ }
+ .mb-3{
+    margin-left: 5%;
+ }
+hr{
+    width: 90%;
+    color:#525455;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+ }
+ 
+ 
+ .table-responsive {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    overflow-x: auto;}
+
+.up1{
+    color: rgb(111, 113, 116);
+    
+}
+td{
+    color: rgb(111, 113, 116);
+}
+#tableresu {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tableresu td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tableresu tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tableresu tr:hover {background-color: #ddd;}
+  
+  #tableresu th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7bb7f0;
+    color: white;
+  }

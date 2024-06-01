@@ -1,0 +1,170 @@
+#r2{
+    border-radius: 70%;
+}
+#t1{
+  background-color: rgb(19, 19, 97);
+  padding-top: 40px;
+  border-style:ridge;
+  border-width: 1px;
+  border-color: #fbdcb7;
+}
+#t2{
+  color: #FFE4C4;
+  font-family: Georgia, Times, serif; 
+  padding-left: 60px; 
+}
+#t3{
+  color: #FFE4C4;
+  padding-left: 60px;
+}
+select option[disabled] {
+  display: none;
+}
+select.form-select {
+  border: none;
+  background: none;
+  color: #FFE4C4;
+  text-align: center;
+}
+#d1{
+  background: linear-gradient(to right, rgb(19, 19, 97), rgb(57, 96, 188));
+}
+#r3,#r4{
+  padding-inline:inherit ;
+  display: flex;
+  align-items: center;
+}
+i:hover{
+  color: white;
+}
+#s1{
+  color:  #FFE4C4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  display: flex;
+  align-items: center;
+  background-color: rgba(19, 19, 97, 0.4);
+  border-radius: 20px;
+}
+button{
+  border-width: 1px;
+  border-style: solid;
+  width: 200px;
+  padding: 2%;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+}
+#box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(19, 19, 97, 0.4);
+  border-radius: 20px;
+  height: 15%;
+  margin-bottom: 5%;
+}
+tr{
+  color: #FFE4C4;
+}
+.navbar-nav.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.chartjs-render-monitor {
+  animation: chartjs-render-animation 1ms;
+}
+canvas {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  bottom: 100%; /* Afficher le menu au-dessus du bouton */
+  left: 0;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
+@media (max-width: 767px) {
+  #box{
+      background-color: transparent;
+  }
+}
+@media (max-width: 988px) {
+  .navbar-nav.ml-auto {
+    display: none;
+  }
+}
+#sidebarToggleTop {
+  display: none;
+}
+@media (max-width: 1394px) {
+  #t1 {
+    display: none;
+  }
+  #sidebarToggleTop {
+    display: block;
+  }
+  #d1{
+    height: 100vh;
+  }
+}
+#t1.show {
+  display: block;
+}
+.table-button {
+  border-radius: 15px;
+  width: 80%; /* Définissez la largeur souhaitée */
+  text-align: center;
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin: 0 auto; /* Centre le bouton */
+}
+.table-button:hover {
+  color: black;
+  text-decoration: none;
+}
+.centered-button {
+  text-align: center;
+}
+.centered-button a {
+  display: inline-block;
+  text-align: center;
+}
